@@ -1,3 +1,5 @@
+# This is a function finding the max sum of a sub-array in a list of integers
+
 def maxSubArray(nums):
 	current_subarray = max_subarray = nums[0]
 	for num in nums[1:]:
